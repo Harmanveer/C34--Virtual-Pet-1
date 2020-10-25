@@ -5,8 +5,8 @@ var foodS, foodStock;
 function preload()
 {
   //load images here
-  dog_image=loadImage("sprites/dogImg.png");
-  dog_Image2=loadImage("sprites/dogImg1.png");
+  dog_image=loadImage("dogImg.png");
+  dog_Image2=loadImage("dogImg1.png");
 }
 
 function setup() 
@@ -41,7 +41,7 @@ function draw()
 
   fill("red")
   textSize(20);
-  text("Note: Press UP ARROW to feed the dog milk",50,100);
+  text("Note: Press UP ARROW to feed the dog dog food",50,100);
 }
 
 function readStock(data)
